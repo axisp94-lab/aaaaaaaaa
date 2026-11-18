@@ -1,0 +1,8 @@
+# Configuration générale d'AmethyysNPCs
+script-default-interval: 20
+script-approach-radius: 3.0
+tracking-range: 64
+movement:
+  update-ticks: 1
+  default-speed: 4.0
+  checkpoint-spacing: 2.0

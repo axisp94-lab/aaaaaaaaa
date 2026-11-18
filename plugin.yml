@@ -1,0 +1,14 @@
+name: AmethyysNPCs
+version: 0.1.0
+main: net.amethystesmp.anpc.ANPCPlugin
+api-version: '1.21.11'
+authors: [Amethyy]
+softdepend: [BetterModel, MythicMobs, ItemsAdder, Multiverse-Core]
+commands:
+  anpc:
+    description: Gestion des NPC Amethyys
+    usage: /anpc [help|list|create|reload|tp|center|rename|kill]
+    permission: anpc.admin
+permissions:
+  anpc.admin:
+    default: op

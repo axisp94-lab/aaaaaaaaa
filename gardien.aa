@@ -1,0 +1,13 @@
+on right click:
+    say local "Bonjour ! Que puis-je faire pour toi ?"
+    play sound "entity.villager.yes"
+
+on right click while sneaking:
+    say local "Tu as fait un clic droit accroupi."
+
+on entity approach:
+    say local "Bienvenue près de moi !"
+
+on interval:
+    if flag (porte) is on:
+        say local "La porte est ouverte."
